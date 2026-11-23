@@ -1,0 +1,1 @@
+export default function StatCard({ label, value, delta, icon, color }) { return <div className="stat-card"><div className="stat-top"><span>{label}</span><span className={`stat-icon ${color}`}>{icon}</span></div><div className="stat-value">{value}</div><div className="stat-foot"><span className="delta">↗ {delta}</span><span>vs. last 7 days</span></div></div>; }

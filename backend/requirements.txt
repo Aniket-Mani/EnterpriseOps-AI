@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+sqlmodel
+psycopg[binary]
+alembic
+pydantic-settings
+python-dotenv
+google-genai
+langgraph
+langgraph-checkpoint-postgres
+email-validator
+passlib[bcrypt]
+python-jose[cryptography]
+pytest
+pytest-asyncio
+httpx
